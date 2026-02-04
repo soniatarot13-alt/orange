@@ -34,7 +34,7 @@ export default defineConfig({
     baseURL: 'https://opensource-demo.orangehrmlive.com',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: false,
+    headless: true,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
